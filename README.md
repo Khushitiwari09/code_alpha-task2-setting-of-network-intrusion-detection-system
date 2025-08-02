@@ -1,0 +1,2 @@
+# code_alpha-task2-setting-of-network-intrusion-detection-system
+Network Intrusion Detection System (NIDS) using Snort, implemented on Ubuntu with Kali Linux attack simulations. Detects real-time threats like port scans and exploits through customized rules. Validated in a virtual lab environment, demonstrating effective traffic monitoring and alerting. Provides a foundation for network security hardening
