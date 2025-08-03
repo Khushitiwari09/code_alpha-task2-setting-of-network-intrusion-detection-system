@@ -1,0 +1,23 @@
+ubuntu_dependencies.txt
+
+For Ubuntu (ubuntu/ folder)
+network_commands.txt:
+
+bash
+# Network interface configuration
+ifconfig
+
+# Network scanning (requires nmap installation)
+nmap 172.24.195.150
+snort_install.txt:
+
+bash
+# Install Snort on Ubuntu
+sudo apt update
+sudo apt install -y snort libpcap-dev libpcre3-dev libdumbnet-dev
+
+# Verify installation
+snort -V
+
+# Initialize Snort
+sudo snort -A console -q -u snort -g snort -c /etc/snort/snort.conf -i eth0
