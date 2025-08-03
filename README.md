@@ -37,6 +37,15 @@ Figure 2.2: Nmap scan
 Snort successfully detected the scan and generated alerts.
 <img width="1920" height="1080" alt="Screenshot (93)" src="https://github.com/user-attachments/assets/160a10b4-171f-423a-a1fb-12a9b69429bd" />
 Figure 2.3: Snort detecting the Nmap scan
+Legion is another tool for information gathering. This tool was employed to simulate more advanced reconnaissance and network mapping attacks. Using Legion, the IP address of the Ubuntu machine was scoped, and detailed scans were performed.
+
+The attack targeted different services running on the Ubuntu machine, attempting to map open ports and exploit known vulnerabilities.
+<img width="1920" height="1080" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/eb371656-d71e-4a0b-8a45-c4e537536d8c" />
+Figure 2.4: adding Ubuntu machine IP address to scope
+Snort was again successful in detecting these malicious activities and issued real-time alerts
+<img width="1920" height="1080" alt="Screenshot (102)" src="https://github.com/user-attachments/assets/47f597c8-3ee6-42b1-a641-30f0fcd6ed18" />
+Figure 2.5: Snort detecting Legion scanning attack
+
 
 
 
