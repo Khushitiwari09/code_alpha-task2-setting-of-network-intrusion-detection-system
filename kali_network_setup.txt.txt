@@ -1,0 +1,19 @@
+kali_network_setup.txt
+
+For Kali Linux (kali_linux/ folder)
+network_commands.txt:
+
+bash
+# Network interface configuration
+ifconfig
+
+# Network scanning
+nmap 172.24.195.150
+snort_install.txt:
+
+bash
+# Verify existing Snort installation
+snort -V
+
+# Run Snort in console mode
+sudo snort -A console -q -u snort -g snort -c /etc/snort/snort.conf -i eth0
